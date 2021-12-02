@@ -1,0 +1,2136 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <title>⏩ 𝘾𝙖𝙩𝙚𝙧𝙞𝙣𝙜 𝙁𝙊𝙊𝘿 𝙏𝙞𝙢𝙚 ⏪</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+ 
+/*****************************************IMAGENES*************************************/
+ 
+img {
+  border: solid #ddd;
+  padding:5px;
+  width: 255px;
+  height: 190px;
+}
+ 
+/****************************************CLASES****************************************/
+ 
+
+input {
+width: 415px;;
+}
+
+hr {
+border-color: black;
+}
+ 
+.gif {
+width: 200px;
+background-image: url("gif-marvel-74.gif");
+}
+ 
+h1 {
+text-align: center;
+}
+ 
+h2 {  
+background-image: url(Entrantes-navideños.jpg) ;
+padding: 10px;
+}
+ 
+h2 {
+text-align: center;
+}
+ 
+h3 {
+background-color: blanchedalmond;
+text-align: center;
+}
+ 
+h4 {
+color:whitesmoke;
+text-align: center;
+font-size:23px;
+}
+ 
+.newspaper {
+column-count: 3;
+background-image: url(Entrantes-navideños.jpg) ;
+padding: 40px;
+}
+ 
+table {
+border-collapse: collapse;
+background-color: #fff2e6;
+}
+ 
+th, td {
+padding: 2px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+text-align: center;
+}
+ 
+tr:hover {
+background-color: rgb(121, 30, 30);
+}
+ 
+table.center {
+margin-left: auto;
+margin-right: auto;
+}
+ 
+.myDiv {
+border: 5px outset black;
+background-color: rgb(121, 30, 30);    
+text-align: center;
+justify-content: center;
+}
+/*******************************************ID*******************************************/
+
+#img3{
+
+width: 100%;
+}
+
+#myHeader {
+background-color: lightblue;
+color: rebeccapurple;
+padding: 40px;
+text-align: center;
+}
+ 
+#h1 {  
+background-color:#fff2e6;
+border: solid black 10px;
+}
+ 
+#h21{  
+background-color:#fff2e6;
+border: solid black 10px;
+}
+ 
+#p2 {
+width: 400px;
+background-color: burlywood;
+padding: 10px;
+margin: 2px;
+}
+ 
+#p3 {
+width: 100px;
+background-color: burlywood;
+padding: 10px;
+margin: 2px;
+}
+ 
+#p52 {
+background-color: wheat;
+text-align: center;
+}
+ 
+#p53 {
+color:wheat;
+padding: 20px;
+font-size:18px;
+}
+ 
+#PLATOSFRIOS {
+background-color:#fff2e6;
+border: solid black 5px;
+}
+ 
+#PLATOSCALIENTES {
+background-color:#fff2e6;
+border: solid black 5px;
+}
+ 
+#CARNES {
+background-color:#fff2e6;
+border: solid black 5px;
+}
+ 
+#POSTRESSALADOS {
+background-color:#fff2e6;
+border: solid black 5px;
+}
+ 
+#POSTRESDULCES {
+background-color:#fff2e6;
+border: solid black 5px;
+}
+ 
+#BEBIDASFRIAS {
+background-color:#fff2e6;
+border: solid black 5px;
+}
+ 
+#BEBIDASCALIENTES {
+background-color:#fff2e6;
+border: solid black 5px;
+}
+ 
+#COMPLEMENTOS {
+background-color:#fff2e6;
+border: solid black 5px;
+}
+ 
+#tartatsalmon { 
+width: 50px; 
+}
+
+#myBtn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: red;
+color: white;
+cursor: pointer;
+padding: 15px;
+border-radius: 4px;
+}
+
+#myBtn:hover {
+background-color: #555;
+}
+
+/**************************************BODY**********************************************/
+ 
+body {
+  background-image: url("cropped-catering-2778755_1920.jpg");
+}
+ 
+/*********************************FLEX-CONTAINERS*****************************************/
+ 
+.flex-container {
+    display: flex;
+    background-image: url("Catering_Main.jpg");
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-container > div {
+    background-color:rgb(151, 16, 16);
+    margin: 1%;
+    padding: 2%;
+   border:solid;
+    width:30%;
+   text-align: center;
+}      
+div.centro {
+    width: 20%;
+    color:black;
+}
+ 
+/*******************************VISTAS POR ENCIMA******************************************/
+ 
+.icon-bar {
+  width: 100%;
+  background-color:rgb(151, 16, 16);
+  overflow: auto;
+}
+ 
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color:red;
+  font-size: 36px;
+}
+.icon-bar a:hover {
+  background-color:rgb(121, 30, 30);
+}
+.active {
+  background-color:rgb(121, 30, 30);
+}
+ 
+/*********************************MENU VERTICAL********************************************/
+ 
+.vertical-menu {
+  width: 200px;
+}
+.vertical-menu a {
+  background-color:rgb(121, 30, 30);
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  border:solid black 1px;
+}
+.vertical-menu a:hover {
+  background-color:  #111111;
+}
+.vertical-menu a.active {
+  background-color: rgb(121, 30, 30);
+  color: white;
+}
+ 
+/******************************MENU HORIZONTAL*********************************************/
+ 
+ul {
+  text-align: center;
+  list-style-type:none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(121, 30, 30);
+  width: 750px;
+  border:solid black 2px;
+}
+li {
+float: left;
+}
+ 
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+width: 150px;
+}
+ 
+li a:hover {
+background-color: #111111;
+}
+ 
+/********************************COMENTARIOS*************************************************************/
+ 
+    /*audio {
+    background-color: darkred;
+    border: solid white;
+    }*/
+ 
+    /*<audio src="yt1s.com - Canción de Avengers Infinity war.mp3" controls="controls"></audio> -->*/
+ 
+ 
+/********************************COMENTARIOS**************************************************************/
+ 
+</style>
+ 
+<body>
+ 
+<h1 id=h1>⏩ 𝘾𝙖𝙩𝙚𝙧𝙞𝙣𝙜 𝙁𝙊𝙊𝘿 𝙏𝙞𝙢𝙚 ⏪</h1>
+ 
+<hr>
+ 
+<ul>
+  <li><a href="#PLATOSFRIOS">ᴘʟᴀᴛᴏꜱ ꜰʀɪᴏꜱ🦐</a></li>
+  <li><a href="#PLATOSCALIENTES">ᴘʟᴀᴛᴏꜱ ᴄᴀʟɪᴇɴᴛᴇꜱ🍜</a></li>
+  <li><a href="#CARNES">ᴄᴀʀɴᴇꜱ🥩</a></li>
+  <li><a href="#POSTRES SALADOS">ᴘᴏꜱᴛʀᴇꜱ ꜱᴀʟᴀᴅᴏꜱ🥐</a></li>
+  <li><a href="#POSTRES DULCES">ᴘᴏꜱᴛʀᴇꜱ ᴅᴜʟᴄᴇꜱ🥧</a></li>
+  <li><a href="#BEBIDASFRIAS">ʙᴇʙɪᴅᴀꜱ FRIAS🥃</a></li>
+  <li><a href="#BEBIDAS CALIENTES">ʙᴇʙɪᴅᴀꜱ ᴄᴀʟɪᴇɴᴛᴇꜱ🍵</a></li>
+  <li><a href="#COMPLEMENTOS">ᴄᴏᴍᴘʟᴇᴍᴇɴᴛᴏꜱ🍹</a></li>
+</ul>
+ 
+<div class="vertical-menu">
+  <a href="login.html" target="_blank" >Login💻</a>
+  <a href="maps.html" target="_blank" >Maps🌍</a>
+  <a href="contactos.html" target="_blank" >Contacto📞</a>
+  <a href="ayuda.html" target="_blank" >Ayuda📑</a>
+  <a href="pago.html" target="_blank" >Metodos De Pago💳</a>
+</div>
+ 
+<hr>
+<!-- <p><strong>Bienvenidos</strong> a nuestra pequeña empresa de comida, principalmente nos focalizamos en comidas para pequeñas medianas y grandes empresas para suministrar todo tipo de comidas , menus y todo lo que la empresa en su totalidad quiera encargar.</p> -->
+<h2>HORARIO</h2>
+ 
+<table style=width:100%; class="table.center">
+  <tr>
+    <th></th>
+    <th>LUNES</th>
+    <th>MARTES</th>
+    <th>MIERCOLES</th>
+    <th>JUEVES</th>
+    <th>VIERNES</th>
+    <th>SABADO</th>
+    <th>DOMINGO</th>
+  </tr>
+  <tr>
+    <td>12:00</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>O</td>
+    <td>X</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>13:00</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>14:00</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>15:00</td>
+   <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>16:00</td>
+  <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>17:00</td>
+   <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>18:00</td>
+  <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>19:00</td>
+   <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>20:00</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>21:00</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>22:00</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>23:00</td>
+  <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+   <tr>
+    <td>00:00</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>O</td>
+    <td>X</td>
+  </tr>
+</table>
+ 
+<h2>𝙀𝙣𝙩𝙧𝙖𝙣𝙩𝙚𝙨</h2>
+ 
+<section class="flex-container">
+ 
+  <div class="jumbotron text-center">
+    <h1>Un pequeño vistazo al mundo de los entrantes!</h1>
+    <br>
+    <p id=p2> <iframe width="390" height="345" src="https://www.youtube.com/watch?v=hz88f1avc7s">
+    </iframe><p id=p52>
+      Video courtesy of
+      <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+      </p> </p>
+<br>
+<br>
+<br>
+      <p id=p2> <iframe width="390" height="345" src="https://youtu.be/PNVuBOIDEPg">
+      </iframe><p id=p52>
+        Video courtesy of
+        <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+        </p> </p>
+  </div>
+   
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Croquetas</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+ 
+        <img src="123456.jpg" class="img">
+ 
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Pinchos de Tortilla</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+ 
+        <img src=" tortilla_patatas_3.JPG" class="img">
+       
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Paletas de Jamon</h3>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+ 
+        <img src=" secadero-de-jamones-jamivi.jpg" class="img">
+       
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+ 
+<hr>
+ 
+<h1 id=PLATOSFRIOS>ᴘʟᴀᴛᴏꜱ ꜰʀɪᴏꜱ🦐</h1>
+ 
+<div class="myDiv" id="img3">
+ 
+  <img src="tartar-salmon-gtres-z.jpg">
+  <img src="Vatelia+Catering.jpeg">
+  <img src="alfonso-a.jpg">
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png">
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+  <img src="canelones-pepino-age-t.jpg">
+  <img src="catering-para-bodas-platos.jpg">
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+  <img src="ceviche-de-salmon-1.jpg">
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+  <img src="pescado-age-z.jpg">
+  <img src="mariscada-gallega.jpg">
+  <img src="caballa-marinada-age-z.jpg">
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+  
+<hr>
+ 
+<h4>ᴛᴀʀᴛᴀʀ ᴅᴇ ꜱᴀʟᴍᴏɴ</h4>
+ 
+<p id=p53>𝑬𝒍 𝒕𝒂𝒓𝒕𝒂𝒓 𝒅𝒆 𝒔𝒂𝒍𝒎ó𝒏 𝒔𝒆 𝒑𝒓𝒆𝒑𝒂𝒓𝒂 𝒄𝒐𝒏 𝒔𝒂𝒍𝒎ó𝒏 𝒄𝒓𝒖𝒅𝒐 𝒇𝒓𝒆𝒔𝒄𝒐 𝒚 𝒄𝒐𝒏𝒅𝒊𝒎𝒆𝒏𝒕𝒐𝒔. 𝑺𝒆 𝒔𝒖𝒆𝒍𝒆 𝒖𝒏𝒕𝒂𝒓 𝒆𝒏 𝒖𝒏𝒂 𝒈𝒂𝒍𝒍𝒆𝒕𝒂 𝒐 𝒑𝒂𝒏. 𝑬𝒔𝒕𝒆 𝒑𝒍𝒂𝒕𝒐 𝒔𝒆 𝒑𝒖𝒆𝒅𝒆 𝒆𝒍𝒂𝒃𝒐𝒓𝒂𝒓 𝒄𝒐𝒏 𝒔𝒂𝒍𝒎ó𝒏 𝒂𝒉𝒖𝒎𝒂𝒅𝒐, 𝒔𝒊 𝒆𝒍 𝒑𝒆𝒔𝒄𝒂𝒅𝒐 𝒄𝒓𝒖𝒅𝒐 𝒏𝒐 𝒆𝒔 𝒏𝒖𝒆𝒔𝒕𝒓𝒂 𝒑𝒂𝒔𝒊ó𝒏, 𝒂𝒖𝒏𝒒𝒖𝒆 𝒏𝒐 𝒄𝒐𝒏𝒗𝒊𝒆𝒏𝒆 𝒂𝒃𝒖𝒔𝒂𝒓 𝒅𝒆 𝒍𝒐𝒔 𝒂𝒉𝒖𝒎𝒂𝒅𝒐𝒔 𝒑𝒐𝒓 𝒍𝒂 𝒄𝒂𝒏𝒕𝒊𝒅𝒂𝒅 𝒅𝒆 𝒔𝒐𝒅𝒊𝒐 𝒒𝒖𝒆 𝒑𝒖𝒆𝒅𝒆𝒏 𝒍𝒍𝒆𝒗𝒂𝒓. 𝑬𝒍 𝒔𝒂𝒍𝒎ó𝒏, 𝒆𝒔𝒐 𝒔í, 𝒉𝒂𝒚 𝒒𝒖𝒆 𝒄𝒐𝒏𝒈𝒆𝒍𝒂𝒓𝒍𝒐 𝒄𝒐𝒎𝒐 𝒎í𝒏𝒊𝒎𝒐 5 𝒅í𝒂𝒔 𝒆𝒏 𝒄𝒂𝒔𝒂 𝒔𝒊 𝒍𝒐 𝒄𝒐𝒎𝒑𝒓𝒂𝒎𝒐𝒔 𝒇𝒓𝒆𝒔𝒄𝒐 𝒑𝒂𝒓𝒂 𝒆𝒗𝒊𝒕𝒂𝒓 𝒓𝒊𝒆𝒔𝒈𝒐𝒔 𝒅𝒆 𝒂𝒏𝒊𝒔𝒂𝒌𝒊𝒔.
+ 
+  𝑺𝒆 𝒕𝒓𝒂𝒕𝒂 𝒅𝒆 𝒖𝒏𝒂 𝒆𝒍𝒂𝒃𝒐𝒓𝒂𝒄𝒊ó𝒏 𝒅𝒆 𝒍𝒐 𝒎á𝒔 𝒔𝒆𝒏𝒄𝒊𝒍𝒍𝒂 𝒒𝒖𝒆 𝒏𝒐 𝒓𝒆𝒒𝒖𝒊𝒆𝒓𝒆 𝒏𝒊𝒏𝒈ú𝒏 𝒄𝒐𝒄𝒊𝒏𝒂𝒅𝒐. 𝑺í 𝒆𝒔 𝒂𝒄𝒐𝒏𝒔𝒆𝒋𝒂𝒃𝒍𝒆 𝒖𝒏 𝒎𝒂𝒓𝒈𝒆𝒏 𝒅𝒆 𝒕𝒊𝒆𝒎𝒑𝒐 𝒅𝒆 𝒎𝒂𝒓𝒊𝒏𝒂𝒅𝒐 𝒑𝒂𝒓𝒂 𝒒𝒖𝒆 𝒆𝒍 𝒑𝒆𝒔𝒄𝒂𝒅𝒐 𝒄𝒐𝒋𝒂 𝒃𝒖𝒆𝒏 𝒔𝒂𝒃𝒐𝒓 𝒚 𝒎𝒆𝒋𝒐𝒓𝒆 𝒔𝒖 𝒕𝒆𝒙𝒕𝒖𝒓𝒂, 𝒂𝒔í 𝒕𝒂𝒎𝒃𝒊é𝒏 𝒔𝒆 𝒑𝒊𝒆𝒓𝒅𝒆 𝒆𝒍 𝒂𝒔𝒑𝒆𝒄𝒕𝒐 𝒅𝒆 𝒄𝒓𝒖𝒅𝒐, 𝒚𝒂 𝒒𝒖𝒆 𝒍𝒐𝒔 á𝒄𝒊𝒅𝒐𝒔 𝒅𝒆 𝒍𝒂 𝒔𝒂𝒍𝒔𝒂 𝒍𝒐 "𝒄𝒐𝒄𝒊𝒏𝒂𝒏", 𝒆𝒏 𝒄𝒊𝒆𝒓𝒕𝒂 𝒎𝒂𝒏𝒆𝒓𝒂. </p>
+ 
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+ 
+  <br>
+ 
+  <hr>
+ 
+  <h4>ᴛᴀʀᴛᴀʀ ᴅᴇ ᴀᴛÚɴ ʀᴏᴊᴏ ʏ ᴀɢᴜᴀᴄᴀᴛᴇ</h4>
+ 
+<p id=p53>𝑬𝒔𝒕𝒆 𝒕𝒂𝒓𝒕𝒂𝒓 𝒅𝒆 𝒂𝒕ú𝒏 𝒓𝒐𝒋𝒐 𝒚 𝒂𝒈𝒖𝒂𝒄𝒂𝒕𝒆 𝒔𝒆 𝒆𝒍𝒂𝒃𝒐𝒓𝒂 𝒆𝒏 𝒂𝒑𝒆𝒏𝒂𝒔 𝒖𝒏𝒐𝒔 𝒎𝒊𝒏𝒖𝒕𝒐𝒔, 𝒑𝒆𝒓𝒐 𝒄𝒐𝒏𝒍𝒍𝒆𝒗𝒂 𝒖𝒏 𝒑𝒂𝒓 𝒅𝒆 𝒑𝒂𝒔𝒐𝒔 𝒒𝒖𝒆 «𝒂𝒍𝒂𝒓𝒈𝒂𝒏» 𝒖𝒏 𝒑𝒐𝒄𝒐 𝒍𝒂 𝒓𝒆𝒄𝒆𝒕𝒂. 𝑬𝒍 𝒂𝒕ú𝒏, 𝒂𝒖𝒏𝒒𝒖𝒆 𝒔𝒆𝒂 𝒇𝒓𝒆𝒔𝒄𝒐, 𝒄𝒐𝒏𝒗𝒊𝒆𝒏𝒆 𝒄𝒐𝒏𝒈𝒆𝒍𝒂𝒓𝒍𝒐 𝒆𝒏 𝒄𝒂𝒔𝒂 𝒆𝒏𝒕𝒓𝒆 24 𝒚 48 𝒉𝒐𝒓𝒂𝒔 𝒑𝒂𝒓𝒂 𝒆𝒗𝒊𝒕𝒂𝒓 𝒆𝒍 𝒇𝒂𝒎𝒐𝒔𝒐 𝒚 𝒕𝒆𝒎𝒊𝒅𝒐 𝒂𝒏𝒊𝒔𝒂𝒌𝒊𝒔. 𝒀 𝒑𝒐𝒓 𝒐𝒕𝒓𝒐 𝒍𝒂𝒅𝒐, 𝒂𝒖𝒏𝒒𝒖𝒆 𝒍𝒐 𝒑𝒖𝒆𝒅𝒆𝒔 𝒄𝒐𝒏𝒔𝒖𝒎𝒊𝒓 𝒏𝒂𝒅𝒂 𝒎á𝒔 𝒑𝒓𝒆𝒑𝒂𝒓𝒂𝒓𝒍𝒐, 𝒂𝒍 𝒅í𝒂 𝒔𝒊𝒈𝒖𝒊𝒆𝒏𝒕𝒆 𝒆𝒔𝒕á 𝒅𝒆 𝒂𝒖𝒕é𝒏𝒕𝒊𝒄𝒐… ¡𝒆𝒔𝒄á𝒏𝒅𝒂𝒍𝒐! 𝑻𝒆 𝒂𝒔𝒆𝒈𝒖𝒓𝒂𝒎𝒐𝒔 𝒒𝒖𝒆 𝒍𝒂 𝒆𝒔𝒑𝒆𝒓𝒂 𝒎𝒆𝒓𝒆𝒄𝒆 𝒍𝒂 𝒑𝒆𝒏𝒂 😉</p>
+ 
+  <img src="Vatelia+Catering.jpeg" id=tartarsalmon>
+ 
+  <br>
+ 
+  <hr>
+ 
+  <h4>ᴍᴇʀʟᴜᴢᴀ ᴄᴏɴ ꜱᴀʟꜱᴀ ᴅᴇ ɢᴀᴍʙᴀꜱ ʏ ᴄᴀᴠɪᴀʀ</h4>
+ 
+<p id=p53>𝑳𝒂 𝒎𝒆𝒋𝒐𝒓 𝒎𝒆𝒓𝒍𝒖𝒛𝒂 𝒇𝒓𝒆𝒔𝒄𝒂 , 𝒄𝒐𝒏 𝒖𝒏𝒐𝒔 𝒕𝒐𝒒𝒖𝒆𝒔 𝒅𝒆 𝒄𝒂𝒗𝒊𝒂𝒓 𝒅𝒆 𝒑𝒓𝒊𝒎𝒆𝒓𝒂 𝒄𝒂𝒍𝒊𝒅𝒂𝒅 𝒄𝒐𝒏 𝒖𝒏𝒂 𝒄𝒂𝒎𝒂 𝒅𝒆 𝒔𝒂𝒍𝒔𝒂 𝒅𝒆 𝒈𝒂𝒎𝒃𝒂𝒔 𝒓𝒆𝒑𝒐𝒔𝒂𝒅𝒐 𝒆𝒏 𝒖𝒏𝒂𝒔 𝒍𝒂𝒎𝒊𝒏𝒂𝒔𝒅𝒆 𝒑𝒊𝒎𝒊𝒆𝒏𝒕𝒐 𝒂𝒍 𝒉𝒐𝒓𝒏𝒐 𝒄𝒐𝒏 𝒂𝒄𝒆𝒊𝒕𝒆 𝒅𝒆 𝒐𝒓𝒊𝒈𝒆𝒏.𝑬𝒍 𝒍𝒐𝒎𝒐 𝒅𝒆 𝒍𝒂 𝒎𝒆𝒓𝒍𝒖𝒛𝒂 𝒄𝒐𝒏 𝒖𝒏𝒂 𝒓𝒂𝒎𝒂 𝒅𝒆 𝒉𝒊𝒆𝒓𝒃𝒂 𝒃𝒖𝒆𝒏𝒂 𝒑𝒂𝒓𝒂 𝒅𝒂𝒓𝒍𝒆 𝒇𝒓𝒆𝒔𝒄𝒐𝒓</p>
+ 
+  <img src="alfonso-a.jpg" id=tartarsalmon>
+ 
+  <br>
+ 
+  <hr>
+ 
+  <h4>ᴇɴꜱᴀʟᴀᴅᴀ ᴅᴇ ɢᴀᴍʙᴀ</h4>
+ 
+<p id=p53>𝑹𝒆𝒄𝒆𝒕𝒂 𝒅𝒆 𝒆𝒏𝒔𝒂𝒍𝒂𝒅𝒊𝒍𝒍𝒂 𝒕í𝒑𝒊𝒄𝒂 𝒅𝒆𝒍 𝒔𝒖𝒓 𝒅𝒆 𝑬𝒔𝒑𝒂ñ𝒂 𝒄𝒐𝒏 𝒈𝒂𝒎𝒃𝒂𝒔 𝒅𝒆 𝒔𝒊𝒏𝒈𝒖𝒍𝒂𝒓 𝒔𝒂𝒃𝒐𝒓 𝒚 𝒖𝒏𝒂 𝒄𝒖𝒊𝒅𝒂𝒅𝒂 𝒕𝒆𝒙𝒕𝒖𝒓𝒂 𝒒𝒖𝒆 𝒍𝒂 𝒅𝒊𝒔𝒕𝒊𝒏𝒈𝒖𝒆 𝒅𝒆 𝒍𝒂𝒔 𝒅𝒆𝒎á𝒔.𝑬𝒔𝒕𝒆 𝒆𝒔 𝒖𝒏 𝒑𝒍𝒂𝒕𝒐 𝒇𝒓𝒆𝒔𝒄𝒐 𝒚 𝒔𝒂𝒍𝒖𝒅𝒂𝒃𝒍𝒆. 𝑬𝒍 𝒗𝒆𝒓𝒂𝒏𝒐 𝒆𝒔 𝒍𝒂 é𝒑𝒐𝒄𝒂 𝒅𝒆 𝒍𝒂𝒔 𝒆𝒏𝒔𝒂𝒍𝒂𝒅𝒂𝒔, 𝒂𝒔í 𝒒𝒖𝒆 𝒂𝒃𝒓𝒊𝒎𝒐𝒔 𝒕𝒆𝒎𝒑𝒐𝒓𝒂𝒅𝒂 𝒄𝒐𝒏 𝒆𝒔𝒕𝒂 𝒆𝒏𝒔𝒂𝒍𝒂𝒅𝒂 𝒕𝒓𝒐𝒑𝒊𝒄𝒂𝒍. 𝑯𝒂 𝒔𝒊𝒅𝒐 𝒖𝒏 𝒂𝒄𝒊𝒆𝒓𝒕𝒐 𝒍𝒂 𝒄𝒐𝒎𝒃𝒊𝒏𝒂𝒄𝒊ó𝒏 𝒅𝒆 𝒂𝒈𝒖𝒂𝒄𝒂𝒕𝒆 𝒚 𝒎𝒂𝒏𝒈𝒐  𝒄𝒐𝒏 𝒆𝒍 𝒎𝒂𝒓𝒊𝒔𝒄𝒐.𝑺𝒆 𝒆𝒎𝒑𝒍𝒂𝒕𝒂 𝒄𝒐𝒏 𝒂𝒚𝒖𝒅𝒂 𝒅𝒆 𝒖𝒏 𝒂𝒓𝒐 𝒚 𝒔𝒆 𝒅𝒆𝒄𝒐𝒓𝒂 𝒄𝒐𝒏 𝒍𝒂𝒔 𝒈𝒂𝒎𝒃𝒂. 𝒚 𝒖𝒏𝒂𝒔 𝒉𝒐𝒋𝒂𝒔 𝒅𝒆 𝒄𝒂𝒏ò𝒏𝒊𝒈𝒐𝒔</p>
+ 
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png" id=tartarsalmon>
+ 
+  <br>
+ 
+  <hr>
+ 
+  <h4>ʟᴀɴɢᴏꜱᴛᴀ ᴄᴏɴ ꜰᴜᴇɴᴛᴇ ᴅᴇ ɢᴀᴍʙᴀꜱ ʀᴏᴊᴀꜱ</h4>
+ 
+<p id=p53>𝑳𝒂𝒔 𝒍𝒂𝒏𝒈𝒐𝒔𝒕𝒂𝒔, 𝒔𝒆𝒍𝒆𝒄𝒄𝒊𝒐𝒏𝒂𝒅𝒂𝒔 𝒎𝒊𝒏𝒖𝒕𝒐𝒔 𝒂𝒏𝒕𝒆𝒔 𝒅𝒆 𝒍𝒍𝒆𝒈𝒂𝒓 𝒂 𝒍𝒂 𝒄𝒐𝒄𝒊𝒏𝒂 𝒆𝒏 𝒍𝒐𝒔 𝒗𝒊𝒗𝒆𝒓𝒐𝒔 𝒄𝒐𝒏 𝒂𝒈𝒖𝒂 𝒅𝒆 𝒎𝒂𝒓 𝒅𝒆 𝑨𝒔𝒕𝒖𝒚, 𝒔𝒐𝒏 𝒍𝒂𝒔 𝒈𝒓𝒂𝒏𝒅𝒆𝒔 𝒑𝒓𝒐𝒕𝒂𝒈𝒐𝒏𝒊𝒔𝒕𝒂𝒔 𝒅𝒆 𝒍𝒂𝒔 𝒋𝒐𝒓𝒏𝒂𝒅𝒂𝒔, 𝒑𝒆𝒓𝒐, 𝒑𝒓𝒆𝒗𝒊𝒂𝒎𝒆𝒏𝒕𝒆, 𝒉𝒂𝒚 𝒐𝒕𝒓𝒐𝒔 𝒑𝒍𝒂𝒕𝒐𝒔 𝒒𝒖𝒆 𝒄𝒐𝒏𝒇𝒐𝒓𝒎𝒂𝒏 𝒖𝒏 𝒎𝒆𝒏ú 𝒅𝒆𝒈𝒖𝒔𝒕𝒂𝒄𝒊ó𝒏 𝒅𝒆 𝒄𝒂𝒕𝒆𝒈𝒐𝒓í𝒂.</p>
+ 
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+ 
+  <br>
+ 
+  <hr>
+ 
+  <h4>ᴄᴀɴᴇʟᴏɴᴇꜱ ᴅᴇ ᴘᴇᴘɪɴᴏ  ᴄᴏɴ ʙᴀꜱᴇ ᴅᴇ ᴛᴏᴍᴀᴛᴇ </h4>
+ 
+<p id=p53>𝑬𝒍 𝒑𝒆𝒑𝒊𝒏𝒐 𝒄𝒐𝒓𝒕𝒂𝒅𝒐 𝒆𝒏 𝒍á𝒎𝒊𝒏𝒂𝒔 𝒆𝒔 𝒊𝒅𝒆𝒂𝒍 𝒑𝒂𝒓𝒂 𝒓𝒆𝒍𝒍𝒆𝒏𝒂𝒓, 𝒆𝒏𝒓𝒐𝒍𝒍𝒂𝒓 𝒚 𝒉𝒂𝒄𝒆𝒓 '𝒇𝒂𝒍𝒔𝒐𝒔 𝒄𝒂𝒏𝒆𝒍𝒐𝒏𝒆𝒔'. 𝑨𝒚ú𝒅𝒂𝒕𝒆 𝒄𝒐𝒏 𝒖𝒏𝒂 𝒎𝒂𝒏𝒅𝒐𝒍𝒊𝒏𝒂 𝒑𝒂𝒓𝒂 𝒒𝒖𝒆 𝒕𝒆 𝒔𝒂𝒍𝒈𝒂𝒏 𝒎𝒖𝒚 𝒇𝒊𝒏𝒂𝒔. 𝑬𝒍 𝒓𝒆𝒍𝒍𝒆𝒏𝒐 𝒍𝒐 𝒉𝒂𝒓𝒆𝒎𝒐𝒔 𝒂 𝒃𝒂𝒔𝒆 𝒅𝒆 𝒖𝒏𝒂 𝒄𝒓𝒆𝒎𝒂 𝒅𝒆 𝒒𝒖𝒆𝒔𝒐 𝒔𝒂𝒍𝒑𝒊𝒎𝒆𝒏𝒕𝒂𝒅𝒂 𝒚 𝒔𝒆𝒓𝒗𝒊𝒓𝒆𝒎𝒐𝒔 𝒆𝒍 𝒓𝒆𝒔𝒖𝒍𝒕𝒂𝒅𝒐 𝒔𝒐𝒃𝒓𝒆 𝒗𝒆𝒓𝒅𝒖𝒓𝒊𝒕𝒂𝒔 𝒑𝒊𝒄𝒂𝒅𝒂𝒔 𝒚 𝒂𝒍𝒊ñ𝒂𝒅𝒂𝒔 𝒄𝒐𝒏 𝒖𝒏𝒂 𝒗𝒊𝒏𝒂𝒈𝒓𝒆𝒕𝒂 𝒚 𝒉𝒊𝒆𝒓𝒃𝒂𝒔 𝒂𝒓𝒐𝒎á𝒕𝒊𝒄𝒂𝒔. ¡𝑼𝒏 𝒑𝒍𝒂𝒕𝒐 𝒇𝒓í𝒐, 𝒏𝒐 𝒔𝒐𝒍𝒐 𝒅𝒆𝒍𝒊𝒄𝒊𝒐𝒔𝒐, 𝒔𝒊𝒏𝒐 𝒓á𝒑𝒊𝒅𝒐 𝒚 𝒎𝒖𝒚 𝒇á𝒄𝒊𝒍 𝒅𝒆 𝒉𝒂𝒄𝒆𝒓!</p>
+ 
+ <img src="canelones-pepino-age-t.jpg">
+ 
+  <br>
+ 
+  <hr>
+ 
+  <h4>ʙᴀꜱᴇ ᴅᴇ ɴᴀʀᴀɴᴊᴀ ᴄᴏɴ ꜱᴇᴍɪʟʟᴀꜱ ʏ ꜱᴀʟꜱᴀ ᴅᴇ ᴄᴀʟᴀʙᴀᴢᴀ</h4>
+ 
+<p id=p53>𝑬𝒔𝒕𝒆 𝒑𝒍𝒂𝒕𝒐, 𝒆𝒔𝒕á 𝒄𝒐𝒄𝒊𝒏𝒂𝒅𝒐 𝒄𝒐𝒏 𝒖𝒏𝒂 𝒃𝒂𝒔𝒆 𝒅𝒆 𝑵𝒂𝒓𝒂𝒏𝒋𝒂 𝒚 𝒄𝒂𝒛𝒂 𝒚 𝒑𝒆𝒓𝒕𝒆𝒏𝒆𝒄𝒆 𝒂 𝒍𝒐𝒔 𝒑𝒍𝒂𝒕𝒐𝒔 𝒅𝒆 𝒍𝒂 𝒄𝒐𝒄𝒊𝒏𝒂 𝑻𝒓𝒂𝒅𝒊𝒄𝒊𝒐𝒏𝒂𝒍. 𝑷𝒐𝒓 𝒓𝒆𝒈𝒍𝒂 𝒈𝒆𝒏𝒆𝒓𝒂𝒍 𝒔𝒆 𝒄𝒐𝒏𝒔𝒖𝒎𝒆, 𝒑𝒓𝒊𝒏𝒄𝒊𝒑𝒂𝒍𝒎𝒆𝒏𝒕𝒆, 𝒅𝒖𝒓𝒂𝒏𝒕𝒆 𝑶𝒕𝒐ñ𝒐 / 𝑰𝒏𝒗𝒊𝒆𝒓𝒏𝒐.𝑳𝒂 𝒄𝒂𝒍𝒂𝒃𝒂𝒛𝒂, 𝒑𝒐𝒓 𝒔𝒖 𝒄𝒓𝒆𝒎𝒐𝒔𝒂 𝒕𝒆𝒙𝒕𝒖𝒓𝒂 𝒚 𝒄𝒐𝒍𝒐𝒓, 𝒔𝒆 𝒄𝒐𝒏𝒗𝒊𝒆𝒓𝒕𝒆 𝒆𝒏 𝒖𝒏𝒂 𝒅𝒆 𝒍𝒂𝒔 𝒗𝒆𝒓𝒅𝒖𝒓𝒂𝒔 𝒎á𝒔 𝒊𝒅ó𝒏𝒆𝒂𝒔 𝒑𝒂𝒓𝒂 𝒍𝒂 𝒑𝒓𝒆𝒑𝒂𝒓𝒂𝒄𝒊ó𝒏 𝒅𝒆 𝒄𝒓𝒆𝒎𝒂𝒔 𝒚 𝒑𝒖𝒓é𝒔. 𝑬𝒏 𝒆𝒔𝒕𝒂 𝒓𝒆𝒄𝒆𝒕𝒂 𝒍𝒂 𝒂𝒓𝒐𝒎𝒂𝒕𝒊𝒛𝒂𝒎𝒐𝒔 𝒄𝒐𝒏 𝒏𝒂𝒓𝒂𝒏𝒋𝒂 𝒚 𝒍𝒂 𝒖𝒔𝒂𝒎𝒐𝒔 𝒄𝒐𝒎𝒐 𝒂𝒄𝒐𝒎𝒑𝒂ñ𝒂𝒎𝒊𝒆𝒏𝒕𝒐 𝒅𝒆 𝒖𝒏 𝒋𝒖𝒈𝒐𝒔𝒐 𝒚 𝒔𝒂𝒃𝒓𝒐𝒔𝒐 𝒎𝒂𝒈𝒓𝒆𝒕 𝒅𝒆 𝒑𝒂𝒕𝒐, 𝒒𝒖𝒆 𝒏𝒐𝒔 𝒗𝒂 𝒂 𝒅𝒂𝒓 𝒄𝒐𝒎𝒐 𝒓𝒆𝒔𝒖𝒍𝒕𝒂𝒅𝒐 𝒖𝒏 𝒑𝒍𝒂𝒕𝒐 𝒎𝒖𝒚 𝒗𝒊𝒔𝒕𝒐𝒔𝒐 𝒚 𝒄𝒐𝒏 𝒖𝒏𝒂 𝒄𝒐𝒎𝒃𝒊𝒏𝒂𝒄𝒊ó𝒏 𝒅𝒆 𝒔𝒂𝒃𝒐𝒓𝒆𝒔 𝒒𝒖𝒆 𝒔𝒐𝒓𝒑𝒓𝒆𝒏𝒅𝒆𝒓á𝒏 𝒈𝒓𝒂𝒕𝒂𝒎𝒆𝒏𝒕𝒆 𝒂 𝒕𝒖 𝒑𝒂𝒍𝒂𝒅𝒂𝒓.</p>
+ 
+ <img src="catering-para-bodas-platos.jpg">
+ 
+  <br>
+ 
+  <hr>
+ 
+  <h4>Ensalada De Gamba Y Aguacate</h4>
+ 
+<p id=p53>El aguacate y las gambas forman una pareja perfecta, son dos texturas y dos sabores que parecen hechos el uno para el otro, si además se aderezan con una buena vinagreta, el éxito de esta ensalada marinera está asegurado.</p>
+ 
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+ 
+  <br>
+ 
+  <hr>
+ 
+ <h4>Caviche De Salmon</h4>
+ 
+<p id=p53>El ceviche es uno de los platos mas representativos de la maravillosa comida peruana y de la costa pacífica suramericana, consistente en marinar en aliños cítricos (lima, limón, naranja) pescados y/o mariscos junto con cebollas, pimientos y cilantro.
+  Lo he preparado de varias maneras, pero nunca lo había antes con salmón, pero ha quedado estupendo!!</p>
+   
+  <img src="ceviche-de-salmon-1.jpg">
+   
+  <br>
+   
+  <hr>
+ 
+  <h4>Bocaditos De Mejillon con olivas negras</h4>
+ 
+<p id=p53>En la base, use brotes de ensalada, pero pienso que unos ajos tiernos cortados en juliana y después salteados, irían estupendamente como base de este pincho. De todas las maneras, la idea es no usar el fuego para que no sea mas fácil.
+Pues muy sencillo, la única preparación previa que tiene el pincho, es pelar el tomate y cortarlo en rodajas.
+Entonces, en la base del pan ponemos unas hojas de brotes, que salamos con unas escamas de sal (podemos darle un ligero toque con el aceite de la lata), por encima va la rodaja de tomate, que también salaremos, ponemos el mejillón y cubrimos ligeramente con un poco de mahonesa.</p>
+     
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+     
+  <br>
+     
+  <hr>
+ 
+  <h4>Gambones Con Salsa Roja</h4>
+ 
+<p id=p53>Los gambones a la naranja los puede hacer cualquier persona que no tenga ninguna experiencia en la cocina y es un buen entrante para una comida de celebraciones, incluyendo navidad o la cena de fin de año.Es un plato que puedes marinar con una copa de vino blanco bien frío y acompañar con pan para disfrutar mejor de los jugos que hay en la bandeja. </p>
+   
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+   
+  <br>
+   
+  <hr>
+ 
+  <h4>Lenguado Con Huevos Rotos Y Moras</h4>
+ 
+<p id=p53>El lenguado es un pescado blanco con forma plana. Cuando fui por primera vez de excursión al acuario de Barcelona con mis alumnos, me enteré de una curiosidad de este pez que me sorprendió mucho. Y es que nacen con un ojo a cada lado de la cabeza (como los peces normales), pero al llegar a la edad adulta uno de los ojos se muda para que los dos estén en el mismo lado.  Así se pueden camuflar cubriendose de arena o lodo dejando al descubierto los dos ojos con los que observan a sus presas.</p>
+     
+  <img src="pescado-age-z.jpg">
+     
+  <br>
+     
+  <hr>
+ 
+  <h4>Mezcla de Navajas Ostras Langostinos Y Chirlas</h4>
+ 
+<p id=p53>Es uno de los platos más lujosos que pueda existir. En una sola receta hay los mejores ingredientes del mar. Un bocado que reservamos para ocasiones especiales y se convierte en un instante de celebración. Tener una buena materia prima es una de las claves principales para el éxito de este plato, en una mariscada de las que hacen historia, no pueden faltar los mejores mariscos, desde mejillones hasta langostinos y gambas, todo es poco para disfrutar de un plato de impresión. Toma nota de los consejos y los ingredientes que harán de una comida o cena convencional algo extraordinario</p>
+     
+  <img src="mariscada-gallega.jpg">
+     
+ <br>
+     
+  <hr>
+ 
+  <h4>Caballa Marinada Con Hierbas Silvestres</h4>
+ 
+<p id=p53>Para hacer una caballa marinada córtala en tiras y déjala macerar unas horas con zumo y ralladura de limón, aceite y sal. Se pican las verduritas (pimientos, tomate, cebolla) aliñadas y se sirve todo en un montadito de pan.Los mejores meses para consumir caballa son los de primavera, porque su carne es más grasa y jugosa, aunque puedes encontrarla en el mercado durante más meses, sin problema. Aprovecha su excelente sabor y su precio ajustado (suele rondar los tres euros el kilo) para innovar en tus recetas con este pescado rico en omega 3 y versátil como pocos.</p>
+       
+  <img src="caballa-marinada-age-z.jpg">
+       
+  <br>
+       
+  <hr>
+ 
+  <h4>Pastel De Salmon Tradicional</h4>
+ 
+<p id=p53>Este plato, en realidad no puede ser más sencillo. Se trata de preparar una especie de tarta salada donde las capas de relleno se intercalan con pan, en este caso de molde y se presenta forrado con láminas de salmón ahumado que le da un aspecto brillante y colorido. Os animo a que os pongáis manos a la obra esta Navidad y lo preparéis en casa este rico pastel de salmón, os prometo éxito seguro.</p>
+   
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+   
+  <br>
+   
+  <hr>
+ 
+  <h4>Pasta Italiana Con Tomate Natural Y Olivas</h4>
+ 
+<p id=p53>Hay días en los que no nos apetece complicarnos nada en la cocina, necesitamos un plato sencillo y con pocos ingredientes pero además muy rico, y en muchas de esas ocasiones la pasta es la solución. Simplemente cocida y con un poco de aceite, queso y pimienta ya está buenísima, pero si además te animas a elaborar una salsa casera el resultado va a ser de 10.</p>
+     
+  <img src="R.jpg">
+     
+  <br>
+     
+  <hr>
+ 
+<h2>PRECIOS</h2>
+ 
+<table style=width:100%; class="table.center">
+<tr>
+  <th></th>
+  <th>LUNES</th>
+  <th>MARTES</th>
+  <th>MIERCOLES</th>
+  <th>JUEVES</th>
+  <th>VIERNES</th>
+  <th>SABADO</th>
+  <th>DOMINGO</th>
+</tr>
+<tr>
+  <td>12:00</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>13:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>14:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>15:00</td>
+ <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>16:00</td>
+<td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+</table>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+ 
+<h1 id=PLATOSCALIENTES>ᴘʟᴀᴛᴏꜱ ᴄᴀʟɪᴇɴᴛᴇꜱ🍜</h1>
+ 
+<div class="myDiv" id="img3">
+
+  <img src="tartar-salmon-gtres-z.jpg">
+  <img src="Vatelia+Catering.jpeg">
+  <img src="alfonso-a.jpg">
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png">
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+  <img src="canelones-pepino-age-t.jpg">
+  <img src="catering-para-bodas-platos.jpg">
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+  <img src="ceviche-de-salmon-1.jpg">
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+  <img src="pescado-age-z.jpg">
+  <img src="mariscada-gallega.jpg">
+  <img src="caballa-marinada-age-z.jpg">
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+   <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+   <br>
+   
+   <hr>
+
+   <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+ <p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h2>PRECIOS</h2>
+ 
+<table style=width:100%; class="table.center">
+<tr>
+  <th></th>
+  <th>LUNES</th>
+  <th>MARTES</th>
+  <th>MIERCOLES</th>
+  <th>JUEVES</th>
+  <th>VIERNES</th>
+  <th>SABADO</th>
+  <th>DOMINGO</th>
+</tr>
+<tr>
+  <td>12:00</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>13:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>14:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>15:00</td>
+ <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>16:00</td>
+<td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+</table>
+</div>
+
+<h1 id=CARNES>ᴄᴀʀɴᴇꜱ🥩</h1>
+
+<div class="myDiv" id="img3">
+
+  <img src="tartar-salmon-gtres-z.jpg">
+  <img src="Vatelia+Catering.jpeg">
+  <img src="alfonso-a.jpg">
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png">
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+  <img src="canelones-pepino-age-t.jpg">
+  <img src="catering-para-bodas-platos.jpg">
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+  <img src="ceviche-de-salmon-1.jpg">
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+  <img src="pescado-age-z.jpg">
+  <img src="mariscada-gallega.jpg">
+  <img src="caballa-marinada-age-z.jpg">
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+ <p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h2>PRECIOS</h2>
+ 
+<table style=width:100%; class="table.center">
+<tr>
+  <th></th>
+  <th>LUNES</th>
+  <th>MARTES</th>
+  <th>MIERCOLES</th>
+  <th>JUEVES</th>
+  <th>VIERNES</th>
+  <th>SABADO</th>
+  <th>DOMINGO</th>
+</tr>
+<tr>
+  <td>12:00</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>13:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>14:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>15:00</td>
+ <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>16:00</td>
+<td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+</table>
+</div>
+
+<h1 id=POSTRESSALADOS>ᴘᴏꜱᴛʀᴇꜱ ꜱᴀʟᴀᴅᴏꜱ🥐</h1>
+ 
+<div class="myDiv" id="img3">
+
+  <img src="tartar-salmon-gtres-z.jpg">
+  <img src="Vatelia+Catering.jpeg">
+  <img src="alfonso-a.jpg">
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png">
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+  <img src="canelones-pepino-age-t.jpg">
+  <img src="catering-para-bodas-platos.jpg">
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+  <img src="ceviche-de-salmon-1.jpg">
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+  <img src="pescado-age-z.jpg">
+  <img src="mariscada-gallega.jpg">
+  <img src="caballa-marinada-age-z.jpg">
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+   <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+   <br>
+   
+   <hr>
+
+   <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+ <p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h2>PRECIOS</h2>
+ 
+<table style=width:100%; class="table.center">
+<tr>
+  <th></th>
+  <th>LUNES</th>
+  <th>MARTES</th>
+  <th>MIERCOLES</th>
+  <th>JUEVES</th>
+  <th>VIERNES</th>
+  <th>SABADO</th>
+  <th>DOMINGO</th>
+</tr>
+<tr>
+  <td>12:00</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>13:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>14:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>15:00</td>
+ <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>16:00</td>
+<td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+</table>
+</div>
+
+<h1 id=POSTRESDULCES>ᴘᴏꜱᴛʀᴇꜱ ᴅᴜʟᴄᴇꜱ🥧</h1>
+ 
+<div class="myDiv" id="img3">
+
+  <img src="tartar-salmon-gtres-z.jpg">
+  <img src="Vatelia+Catering.jpeg">
+  <img src="alfonso-a.jpg">
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png">
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+  <img src="canelones-pepino-age-t.jpg">
+  <img src="catering-para-bodas-platos.jpg">
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+  <img src="ceviche-de-salmon-1.jpg">
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+  <img src="pescado-age-z.jpg">
+  <img src="mariscada-gallega.jpg">
+  <img src="caballa-marinada-age-z.jpg">
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+   <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+   <br>
+   
+   <hr>
+
+   <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+ <p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h2>PRECIOS</h2>
+ 
+<table style=width:100%; class="table.center">
+<tr>
+  <th></th>
+  <th>LUNES</th>
+  <th>MARTES</th>
+  <th>MIERCOLES</th>
+  <th>JUEVES</th>
+  <th>VIERNES</th>
+  <th>SABADO</th>
+  <th>DOMINGO</th>
+</tr>
+<tr>
+  <td>12:00</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>13:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>14:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>15:00</td>
+ <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>16:00</td>
+<td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+</table>
+</div>
+
+<h1 id=BEBIDASFRIAS>ʙᴇʙɪᴅᴀꜱ FRIAS🥃</h1>
+
+<div class="myDiv" id="img3">
+
+  <img src="tartar-salmon-gtres-z.jpg">
+  <img src="Vatelia+Catering.jpeg">
+  <img src="alfonso-a.jpg">
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png">
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+  <img src="canelones-pepino-age-t.jpg">
+  <img src="catering-para-bodas-platos.jpg">
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+  <img src="ceviche-de-salmon-1.jpg">
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+  <img src="pescado-age-z.jpg">
+  <img src="mariscada-gallega.jpg">
+  <img src="caballa-marinada-age-z.jpg">
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+ <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+ <p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h2>PRECIOS</h2>
+ 
+<table style=width:100%; class="table.center">
+<tr>
+  <th></th>
+  <th>LUNES</th>
+  <th>MARTES</th>
+  <th>MIERCOLES</th>
+  <th>JUEVES</th>
+  <th>VIERNES</th>
+  <th>SABADO</th>
+  <th>DOMINGO</th>
+</tr>
+<tr>
+  <td>12:00</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>13:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>14:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>15:00</td>
+ <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>16:00</td>
+<td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+</table>
+</div>
+
+<h1 id=BEBIDASCALIENTES>ʙᴇʙɪᴅᴀꜱ ᴄᴀʟɪᴇɴᴛᴇꜱ🍵</h1>
+
+<div class="myDiv" id="img3">
+
+  <img src="tartar-salmon-gtres-z.jpg">
+  <img src="Vatelia+Catering.jpeg">
+  <img src="alfonso-a.jpg">
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png">
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+  <img src="canelones-pepino-age-t.jpg">
+  <img src="catering-para-bodas-platos.jpg">
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+  <img src="ceviche-de-salmon-1.jpg">
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+  <img src="pescado-age-z.jpg">
+  <img src="mariscada-gallega.jpg">
+  <img src="caballa-marinada-age-z.jpg">
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+ <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+ <p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h2>PRECIOS</h2>
+ 
+<table style=width:100%; class="table.center">
+<tr>
+  <th></th>
+  <th>LUNES</th>
+  <th>MARTES</th>
+  <th>MIERCOLES</th>
+  <th>JUEVES</th>
+  <th>VIERNES</th>
+  <th>SABADO</th>
+  <th>DOMINGO</th>
+</tr>
+<tr>
+  <td>12:00</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>13:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>14:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>15:00</td>
+ <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>16:00</td>
+<td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+</table>
+</div>
+
+<h1 id=COMPLEMENTOS>ᴄᴏᴍᴘʟᴇᴍᴇɴᴛᴏꜱ🍹</h1>
+
+<div class="myDiv" id="img3">
+
+  <img src="tartar-salmon-gtres-z.jpg">
+  <img src="Vatelia+Catering.jpeg">
+  <img src="alfonso-a.jpg">
+  <img src="IMG_20201225_153817_HDR_1609417524826-1-550x362.png">
+  <img src="Menus-oct-2009-El-Laurel-0342-21.jpg">
+  <img src="canelones-pepino-age-t.jpg">
+  <img src="catering-para-bodas-platos.jpg">
+  <img src="ensaladilla-crujiente-de-mariscos-2.jpg">
+  <img src="ceviche-de-salmon-1.jpg">
+  <img src="12540646-una-gran-cantidad-de-bocadillos-de-mariscos-fríos-en-la-mesa-de-buffet-catering.jpg">
+  <img src="shrimp-cocktail-1670404_1280.jpg">
+  <img src="pescado-age-z.jpg">
+  <img src="mariscada-gallega.jpg">
+  <img src="caballa-marinada-age-z.jpg">
+  <img src="recetas-ybarra-brazo-gitano-salmon-mayonesa-495x400.jpg">
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+ <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+ <p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h4>           </h4>
+
+<p id=p53>    </p>
+   
+  <img src="tartar-salmon-gtres-z.jpg" id=tartarsalmon>
+   
+  <br>
+   
+  <hr>
+
+  <h2>PRECIOS</h2>
+ 
+<table style=width:100%; class="table.center">
+<tr>
+  <th></th>
+  <th>LUNES</th>
+  <th>MARTES</th>
+  <th>MIERCOLES</th>
+  <th>JUEVES</th>
+  <th>VIERNES</th>
+  <th>SABADO</th>
+  <th>DOMINGO</th>
+</tr>
+<tr>
+  <td>12:00</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>13:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>14:00</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>15:00</td>
+ <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>16:00</td>
+<td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>O</td>
+  <td>X</td>
+</tr>
+</table>
+</div>
+
+<hr>
+ 
+  <p id="demo"></p>
+
+  <h1>Write a story</h1>
+
+  <p>Insert the title of the story :</p>
+  
+  <input id="id1"> 
+  
+  <br>
+  
+  <p>Insert the story :</p>
+  
+      <textarea id="id2" name="message" rows="10" cols="50"></textarea>
+  
+      <br>
+  
+  <p>Insert the url of an image related with the story :</p>
+  
+  <input id="id3">
+  <br><br>
+  
+  <button onclick="Historia()">Apply</button><br>
+  
+  <article id="4">
+  
+    <h1 id="titulo"></h1>
+  
+    <p id="parrafo"></p>
+  
+    <img id="imagen" src=""> 
+  
+  </article>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ <script>
+
+function Historia() {
+
+  var titulor = document.getElementById("id1").value;
+  var textor = document.getElementById("id2").value;
+  var imgr = document.getElementById("id3").value;
+
+  document.getElementById("titulo").innerHTML = titulor;
+  document.getElementById("parrafo").innerHTML = textor;
+  document.getElementById("imagen").src = imgr;
+  document.getElementById("4").style.border = "1px solid black" ;
+  document.getElementById("4").style.fontSize = "60px" ;
+}
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+
+<div class="container">
+  <h2>Button Elements</h2>
+  <a href="#" class="btn btn-info" role="button">Link Button</a>
+  <button type="button" class="btn btn-info">Button</button>
+  <input type="button" class="btn btn-info" value="Input Button">
+  <input type="submit" class="btn btn-info" value="Submit Button">
+</div>
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+<p id="demo"></p>
+
+<i class="fa fa-copyright" style="font-size:60px;color:red;text-align:left;"></i>
+<i style="font-size:24px" class="fa">&#xf16a;</i>
+ 
+</head>
+</body>
+</html>
+ 
+
